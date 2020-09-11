@@ -20,6 +20,10 @@ The modified hybrid median filter (mHMF) that constitutes the **edge-preserving 
 ![One-Line](/imgs/fig-4.jpg)
 The evaluation result demonstrated that the proposed algorithm was superior to other benchmark methods and it could effectively overcome the out-of-range issue.
 
+## Video demonstration
+[![DEMO-1](http://img.youtube.com/vi/ZcA5Hw_zDX4/0.jpg)](http://www.youtube.com/watch?v=ZcA5Hw_zDX4)
+[![DEMO-2](http://img.youtube.com/vi/SCsbm0_lP9Y/0.jpg)](http://www.youtube.com/watch?v=SCsbm0_lP9Y)
+
 ## Reference
 In any publication related to the use of the source code, you are kindly requested to cite the following paper:
 
