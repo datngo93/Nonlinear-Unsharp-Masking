@@ -1,5 +1,5 @@
 %%=========================================================================
-% Copyright © 2019, SoC Design Lab., Dong-A University. All Right Reserved.
+% Copyright Â© 2019, SoC Design Lab., Dong-A University. All Right Reserved.
 %==========================================================================
 % - Date       : 2019/05/21
 % - Author     : Dat Ngo
@@ -60,6 +60,7 @@ imgf = double(img)/255;
 %% Unsharp masking
 hsv = rgb2hsv(imgf);
 x = hsv(:,:,3);
+x = 2*x-1; % convert to the [-1,1] domain
 
 % root signal
 yk = x;
